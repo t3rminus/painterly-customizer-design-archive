@@ -1,0 +1,46 @@
+/* div[data-id="tooltip"] {
+  backdrop-filter: blur(8px);
+  background-color: rgba(34,34,34,0.95);
+} */
+
+.tooltip {
+  box-sizing: content-box;
+  padding: math.div($padding, 1.5) math.div($padding, 2);
+  width: max-content;
+  min-width: 200px;
+}
+
+.tooltip__name {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.tooltip__author {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 14px;
+  margin-bottom: $padding;
+}
+
+.tooltip__choice {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 14px;
+  max-width: 360px;
+}
+
+.tooltip__telethon {
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+  &::after {
+    content: '\2605';
+    display: inline-block;
+    margin-left: 2px;
+    //font-size: 80%;
+    line-height: 16px;
+    vertical-align: text-top;
+  }
+}

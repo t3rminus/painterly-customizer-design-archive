@@ -1,0 +1,52 @@
+.texture {
+  margin-bottom: $padding * 2;
+}
+
+.texture__options {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: math.div($padding, -3);
+  margin-right: math.div($padding, -3);
+  margin-bottom: $padding;
+}
+
+.texture__heading {
+  margin-bottom: math.div($padding, 2);
+}
+
+.texture__option {
+  display: block;
+  position: relative;
+  padding: $padding / 3;
+
+  input {
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
+.texture__image {
+  display: block;
+  width: 48px;
+  height: 48px;
+
+  image-rendering: pixelated;
+}
+
+/* image-rendering behaves differently on firefox than on other browsers
+   * this should bring it in line for now
+   * as browsers gradually change their implementation of this relatively new property,
+   * this file may need further maintenance to keep these previews unblurred
+   * or eventually this section may be removed if they get their algorithms in line
+*/
+@-moz-document url-prefix() {
+  .texture__image {
+    image-rendering: crisp-edges;
+  }
+}
+
+.texture__option input:checked + .texture__image {
+  box-shadow: 0 0 0 3px $primary;
+}

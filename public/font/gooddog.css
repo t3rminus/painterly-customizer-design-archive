@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'gooddog';
+    src: url('gooddog.woff2') format('woff2'),
+         url('gooddog.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

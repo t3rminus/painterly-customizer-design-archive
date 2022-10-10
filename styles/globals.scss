@@ -1,0 +1,39 @@
+@import url('../public/font/gooddog.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin-top: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  //letter-spacing: 0.3px;
+  font-weight: normal;
+  background: $background url('../public/grass.png') repeat center;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+a {
+  color: $primary;
+}
+
+p {
+  line-height: 1.3;
+}

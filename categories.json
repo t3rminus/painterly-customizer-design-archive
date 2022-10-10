@@ -1,0 +1,185 @@
+{
+  "gui": [
+    "absorption",
+    "advancements_backgrounds_adventure",
+    "advancements_backgrounds",
+    "advancements_backgrounds_husbandry",
+    "advancements_backgrounds_nether",
+    "advancements_backgrounds_stone",
+    "advancements_tabs",
+    "advancements_widgets",
+    "advancementsow",
+    "accessibility",
+    "back",
+    "bad_omen",
+    "barrier",
+    "bars",
+    "blindness"
+  ],
+  "wood": [
+    "acacia_planks",
+    "acacia_sign",
+    "acacia_boat",
+    "acacia_chest_boat",
+    "birch_boat",
+    "birch_chest_boat",
+    "birch_planks",
+    "birch_sign",
+    "dark_oak_planks",
+    "dark_oak_sign",
+    "dark_boat",
+    "dark_chest_boat",
+    "jungle_planks",
+    "jungle_sign",
+    "jungle_boat",
+    "jungle_chest_boat",
+    "mangrove_planks",
+    "mangrove_sign",
+    "mangrove_boat",
+    "mangrove_chest_boat",
+    "oak_planks",
+    "oak_sign",
+    "oak_boat",
+    "oak_chest_boat",
+    "spruce_planks",
+    "spruce_sign",
+    "spruce_boat",
+    "spruce_chest_boat"
+  ],
+  "trees": [
+    "acacia",
+    "acacia_leaves",
+    "acacia_sapling",
+    "azalea",
+    "azalea_leaves",
+    "birch",
+    "birch_leaves",
+    "birch_sapling"
+  ],
+  "doors": [
+    "acacia_door",
+    "acacia_trapdoor",
+    "birch_door",
+    "birch_trapdoor"
+  ],
+  "rails": [
+    "activator_rail"
+  ],
+  "paintings": [
+    "alban",
+    "aztec",
+    "aztec2",
+    "bomb"
+  ],
+  "skins": [
+    "alex"
+  ],
+  "mobs": [
+    "allay",
+    "axolotl",
+    "bat",
+    "bear_polarbear",
+    "bee",
+    "blaze"
+  ],
+  "flowers": [
+    "allium",
+    "azure_bluet",
+    "orchid"
+  ],
+  "caves": [
+    "amethyst_block",
+    "amethyst_cluster",
+    "amethyst_shard"
+  ],
+  "nether": [
+    "ancient_debris",
+    "basalt",
+    "blackstone",
+    "bone_block"
+  ],
+  "stone": [
+    "andesite",
+    "bedrock"
+  ],
+  "job_blocks": [
+    "anvil",
+    "barrel",
+    "blast_furnace",
+    "brewing_stand"
+  ],
+  "food": [
+    "apple",
+    "melon",
+    "pumpkin",
+    "baked_potato",
+    "beef",
+    "beetroot",
+    "beetroot_soup",
+    "bowl",
+    "bread"
+  ],
+  "seeds": [
+    "beetroot_seeds"
+  ],
+  "armor": [
+    "armor_chainmail",
+    "armor_diamond",
+    "armor_gold",
+    "armor_iron",
+    "armor_leather",
+    "armor_netherite",
+    "armor_turtle"
+  ],
+  "decorations": [
+    "armor_stand",
+    "armorstand_wood",
+    "banner",
+    "bed",
+    "bell",
+    "candle",
+    "concrete",
+    "concrete_powder",
+    "wool",
+    "dye",
+    "glazed_terracotta",
+    "shulker_box",
+    "stained_glass",
+    "terracotta",
+    "brick",
+    "bricks"
+  ],
+  "weapons": [
+    "arrow",
+    "bow"
+  ],
+  "plants": [
+    "bamboo",
+    "big_dripleaf"
+  ],
+  "misc": [
+    "beacon",
+    "beacon_beam",
+    "bee_nest",
+    "beehive",
+    "book",
+    "bookshelf"
+  ],
+  "loot": [
+    "blaze_powder",
+    "blaze_rod",
+    "bone",
+    "bone_meal"
+  ],
+  "biomes": [
+    "ice",
+    "packed_ice",
+    "blue_ice"
+  ],
+  "coral_reef": [
+    "brain_coral",
+    "brain_coral_block",
+    "bubble_coral",
+    "bubble_coral_block"
+  ]
+}
